@@ -382,7 +382,7 @@
                                   "Owner": "Anupama08",
                                   "Repo": "CodeDeployGitHubDemo",
                                   "Branch": "master",
-                                  "OAuthToken": "{{resolve:secretsmanager:GITHUB_TOKEN_NAME:SecretString:::}}",
+                                  "OAuthToken": "ff5bfe76985c2623e414e4afb3771664ee59c485",
                                   "PollForSourceChanges": true
                                 },
                                 "runOrder": 1
