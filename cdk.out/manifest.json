@@ -21,7 +21,7 @@
         "templateFile": "PipelineStack.template.json",
         "assumeRoleArn": "arn:${AWS::Partition}:iam::968532631134:role/cdk-hnb659fds-deploy-role-968532631134-us-east-1",
         "cloudFormationExecutionRoleArn": "arn:${AWS::Partition}:iam::968532631134:role/cdk-hnb659fds-cfn-exec-role-968532631134-us-east-1",
-        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-968532631134-us-east-1/e171be5de6fda5d1aa717094512e7ac4da1efd269a7eb65354dfbd7257345511",
+        "stackTemplateAssetObjectUrl": "s3://cdk-hnb659fds-assets-968532631134-us-east-1/eab4e55050268cd0c611a1371ff733d27926a4e9db8e77f1b372aa12d86b4701",
         "requiresBootstrapStackVersion": 4,
         "additionalDependencies": [
           "PipelineStack.assets"

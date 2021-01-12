@@ -27,7 +27,8 @@ export class MycdkappStack extends Stack {
       sourceAction: new codepipeline_actions.GitHubSourceAction({
         actionName: 'GitHub',
         output: sourceArtifact,
-        oauthToken: SecretValue.plainText('4a3fb158d03a1a1d9de3a5c19b690ab082f5b580'),
+        //oauthToken: SecretValue.secretsManager('GITHUB_TOKEN_NAME'),
+        oauthToken: SecretValue.plainText('5953490641035f5b76712ab82be243a5fc853035'),
         trigger: codepipeline_actions.GitHubTrigger.POLL,
         // Replace these with your actual GitHub project info
         owner: 'Anupama08',
